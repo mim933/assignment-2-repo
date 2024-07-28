@@ -10,7 +10,7 @@
     <header>
          <div class="navbar">
             <div class="nav-title">
-                <h3>Fitness</h3>
+                <h3><em>Fitness</em></h3>
             </div>
             <div class="nav-menu">
                 <a class="diff-style" href="">Home</a>
@@ -69,7 +69,7 @@
                 <h2 class="run-title">Run an Extra 
                     Mile Easily</h2>
                     <p class="run-description">use the run-walk technique until you can complete the distance. Another method is to increase the intensity of the run by running several shorter distances</p>
-                    <button class="run-btn">Join Now</button>
+                    <button class="run-btn btn-padding">Join Now</button>
             </div>
             <div class="run-img">
                 <img src="images/run.jpg" alt="">
@@ -83,54 +83,61 @@
         </div>
         <div class="bmi-main">
             <div>
-                <h3>BMI Calculator Chart</h3>
+                <h3 class="bmi-calc-title">BMI Calculator Chart</h3>
                 <table class="bmi-table">
                    <thead>
                      <tr>
-                        <th>BMI</th>
-                        <th>Weight Status</th>
+                        <th class="th-title">BMI</th>
+                        <th class="th-title">Weight Status</th>
                      </tr>
-                     <tbody>
+                   </thead>
+                          <tbody>
                         <tr>
-                            <td>Below 18.5</td>
-                            <td>18.5 - 24.9</td>
-                            <td>25.0 - 29.9</td>
-                            <td>30.0 - and above</td>
+                            <td class="td-desc">Below 18.5</td>
+                            <td class="td-desc">Underweight</td>
                         </tr>
                         <tr>
-                            <td>Underweight</td>
-                            <td>Healthy</td>
-                            <td>Overweight</td>
-                            <td>Obese</td>
+                            <td class="td-desc">18.5-24.9</td>
+                            <td class="td-desc">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="td-desc">25.00-29.9</td>
+                            <td class="td-desc">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="td-desc">30.0-and above</td>
+                            <td class="td-desc">obese</td>
                         </tr>
                     </tbody>
-                   </thead>
                    
                 </table>
             </div>
 
             <div>
-                <h3>Calculate Your BMI</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h3 class="cal-bmi-title">Calculate Your BMI</h3>
+                <p class="cal-bmi">calculate BMI by dividing weight in pounds by height in squared and multiplying by a conversion factor of 703.</p>
                 <form class="bmi-form">
                     <input type="text" name="" id="" placeholder="Height/cm">
                     <input type="text" name="" id="" placeholder="Weight/kg">
                     <br><br>
                     <input type="text" name="" id="" placeholder="Age">
-                    <!-- <label for="sex">Sex</label> -->
-                   <select name="" id="">
-                      <option value="">Sex</option>
-                      <option value="">Male</option>
-                      <option value="">Female</option>
-                   </select>
+                    <label for="sex"></label>
+                    <select name="" id="">
+                        <option value=""><span class="select-title">Sex</span></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                     </select>
                    <br> <br>
                    <select name="" id="">
                     <!-- <input type="text"> -->
-                     <option value="">Select an activity factor</option>
+                     <option value=""><span class="select-title">Select an activity factor</span></option>
                    </select>
-  
+                     
+     
+                 
+
                 </form>
-                <button class="btn-primary btn-margin">Calculate</button>
+                <button class="btn-primary btn-padding">Calculate</button>
               </div>
           </div>
      </section>
@@ -143,21 +150,33 @@
             <div class="team-img-container">
                 <div class="img-size">
                     <img src="images/trainer1.png" alt="">
+                    <h4 class="trainer-name">Jerome Bell</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                 <div class="img-size">
                     <img src="images/trainer2.png" alt="">
+                    <h4 class="trainer-name">Cameron Williamson</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                 <div>
                     <img src="images/trainer3.png" alt="">
+                    <h4 class="trainer-name">Darrell Steward</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                 <div class="img-size">
                     <img src="images/trainer4.png" alt="">
+                    <h4 class="trainer-name">Dianne Russell</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                 <div>
                     <img src="images/trainer5.png" alt="">
+                    <h4 class="trainer-name">Cody fisher</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                 <div class="img-size">
                     <img src="images/trainer6.png" alt="">
+                    <h4 class="trainer-name">Theresa Webb</h4>
+                    <p class="trainer-bio">Trainer</p>
                 </div>
                  
             </div>
@@ -167,7 +186,7 @@
          <section class="footer-main-bg-color" >
            <div class="footer-main">
             <div class="footer-1"> 
-                <h3 class="nav-title">Fitness</h3>
+                <h3 class="nav-title"><em>Fitness</em></h3>
                 <p class="footer-description">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym.</p>
             </div>
             <div class="footer-2">
