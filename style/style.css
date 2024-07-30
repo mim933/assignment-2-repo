@@ -7,17 +7,11 @@
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
-  }
-
-   @font-face {
-    font-family:"Dancing Script";
-    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-}
-
-
+  } 
+    
    header{
     background-color:rgba(0, 0, 0, 0.819);
-    padding: 0 100px;
+    padding:0 100px;
    
 }
   /* navbar css styles here */
@@ -67,6 +61,8 @@
     justify-content: center;
     align-items: center;
  }
+ 
+
  .banner-title{
     color: rgb(255, 255, 255);
 font-family: Inter;
@@ -76,6 +72,20 @@ line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
  }
+ .shape{
+   font-family: 'miama', sans-serif;
+   /* font-optical-sizing:auto; */
+   /* font-style: normal; */
+   /* font-weight:600; 
+    font-size:70px; */
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+
+ }
+
  .banner-description{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -83,7 +93,7 @@ text-align: left;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.5px;
-    text-align: left;
+    text-align:left;
  }
  .btn-primary{
     padding: 15px 20px;
@@ -111,7 +121,7 @@ text-align: left;
  .banner-btn{
   /* padding:15px 25px; */
   position: absolute;
-  width:140px;
+  width:190px;
   height:77px;
   left: 540px;
   top: 556px;
@@ -123,7 +133,7 @@ text-align: left;
  }
  .banner-btn2{
   position: absolute;
-  width: 160px;
+  width: 180px;
   height: 80px;
   left:780px;
   top: 300px;
@@ -131,6 +141,18 @@ text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   color: rgb(250, 250, 249);
+  
+ }
+ .rounded-box{
+   background: rgb(230, 83, 60);
+   height: 35px;
+   width: 35px;
+   border-radius: 100%;
+   position: absolute;
+   left: 550px;
+   top: 577px;
+   /* gap: 20px; */
+
  }
 
  .btn-number{
@@ -173,12 +195,15 @@ top: 584px; */
     background: rgb(0, 0, 0);
     
  }
+ .habit-container{
+   margin: 0 50px;
+   /* width: 100%; */
+ }
  .habit{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: 0 100px; */
  }
  .habit-title{
 color: rgb(255, 255, 255);
@@ -223,10 +248,12 @@ padding: 15px;
  .habit-box{
    display:grid;
    grid-template-columns: repeat(4, 1fr);
+   width: 100%;
  }
  .habit-box img{
    border-radius: 120px;
    padding: 25px;
+   /* width: 100%; */
    /* border: 1px solid silver; */
  }
 
@@ -234,23 +261,30 @@ padding: 15px;
  .run{
    background-color:rgb(34, 34, 34); 
    display: flex;
+   align-items:center;
    margin: 0 100px;
    border-radius: 18px;
+   padding: 20px;
+   justify-content: space-between;
+   gap:40px;
  }
  .run-content{
-   justify-content: flex-start;
+   /* flex-basis: 50%; */
+   /* justify-content: flex-
+   start;
    align-items: center;
-   text-align: center;
+   text-align: center; */
+  
  }
  .run-title{
-   color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 45px;
 font-weight: 900;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
-padding: 0 0 0 20px;
+/* padding: 0 0 0 20px; */
  }
  .run-description{
    color: rgba(255, 255, 255, 0.5);
@@ -260,15 +294,16 @@ font-weight: 400;
 line-height: 20px;
 letter-spacing: 0.3px;
 text-align: left;
-padding: 0 0 0 20px;
+/* padding: 0 0 0 20px; */
   /* margin-top: 20px; */
      }
- 
+
 .run-img img{
-     width: 80%;
-     margin-left: 50px;
-     margin-left: 50px;
-     padding:20px 0px 0px 0px  ;
+     width: 100%;
+     /* height: 100%; */
+     /* margin-left: 50px; */
+     /* margin-left: 50px; */
+     /* padding:20px 0px 0px 0px  ; */
      border-radius:20px; 
   
  }
@@ -291,11 +326,15 @@ padding: 0 0 0 20px;
      /* margin: 0 100px; */
     }
   .bmi-heading{
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
       justify-content: center;
       align-items: center;
-      /* text-align: center; */
+      /* display: flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items:flex-start; */
+      /* text-align:left; */
    }
   .bmi-title{
       color: rgb(255, 255, 255);
@@ -304,7 +343,7 @@ padding: 0 0 0 20px;
       font-weight: 800;
       line-height: 90%;
       letter-spacing: 0%;
-      text-align: left;
+      /* text-align: left; */
      }
   .bmi-description{
       color: rgba(255, 255, 255, 0.737);
@@ -313,7 +352,7 @@ padding: 0 0 0 20px;
       font-weight: 400;
       line-height: 20px;
       letter-spacing: 0.3px;
-      text-align: left;
+      text-align:left;
      }
   .bmi-main{
       background-color:rgba(255, 255, 255, 0.248) ;
@@ -321,6 +360,8 @@ padding: 0 0 0 20px;
       justify-content:center;
       align-items:center;
       gap: 40px;
+      /* margin: 0 100px; */
+
      }
   .bmi-calc-title{
       text-align: center;
@@ -375,10 +416,10 @@ td{
   
     
   form{
-      margin: 0 50px;
+      /* margin: 0 50px; */
      }
   .bmi-form input{
-      padding:10px 15px;
+      padding:12px 15px;
       background-color:rgba(255, 255, 255, 0.261) ;
       /* color:rgba(255, 255, 255, 0.887) ; */
       border: none;
@@ -393,6 +434,7 @@ td{
     letter-spacing: 0px;
     text-align: left;
   }
+  
   .select-title{
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
@@ -403,13 +445,20 @@ td{
     text-align: left;
   }
   .bmi-form select{
-      padding: 10px 15px;
-      background-color:rgba(255, 255, 255, 0.5);
-      /* color: rgba(255, 255, 255, 0.028); */
+      padding: 10px 65px;
+      background-color:rgba(255, 255, 255, 0.261) ;
+      color: rgba(255, 255, 255, 0.6);
       border-radius: 8px;
+      color: rgba(255, 255, 255, 0.6);
+      font-family: Inter;
+      font-size:14px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0px;
+      text-align: left;
      }
   .btn-padding{
-      margin: 34px 0px;
+      margin:40px 0px;
       padding-top: 20px;
      }
     .btn-padding-bottom{
@@ -443,13 +492,16 @@ td{
        
      }
      /* team css styles  */
-
+  .team{
+   padding-bottom: 30px;
+  }
   .team-container{
       display: flex;
       flex-direction:column;
       justify-content: center;
       align-items: center;
       text-align: center;
+  
      }
 .team-title{
    color: rgb(255, 255, 255);
@@ -471,6 +523,7 @@ letter-spacing: 0.3px;
 text-align: center;
  }
 .team-img-container{
+   /* position: static; */
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
@@ -478,14 +531,32 @@ text-align: center;
    border-radius: 18px;
    background: rgba(255, 255, 255, 0.1);
    padding: 20px;
-    margin-bottom: 20px;
+  
+ }
+ .img-size{
+   height:200px;
+   width: 100%;
+  
+   background-size: cover;
+   border-radius: 18px;
  }
 .img-size img{
    width: 100%;
-   border-radius: 18px;
+   height: 50%;
+  
    background: rgba(0, 0, 0, 0.2),url(image);
+
  } 
+ /* .img-diff{
+   width: 100%;
+   
+ } */
 .trainer-name{
+   position: static;
+   /* display:flex; */
+   /* justify-self:stretch; */
+   align-self:stretch;
+   /* margin-bottom: 30px; */
    color: white;
    font-family:inter ;
    font-size: 20px;
@@ -514,8 +585,8 @@ text-align: center;
  .footer-main{
   display:flex;
   justify-content:space-evenly;
-  align-items: center;
-  text-align: center;
+  align-items:start;
+  /* text-align: center; */
   
  }
  .footer-2 a{
@@ -524,12 +595,12 @@ text-align: center;
     
  }
  .foot-title{
-  color:white;
+  color:rgb(255, 255, 255);
  }
  .foot-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
   font-family: Inter;
   font-size: 18px; 
   font-weight: 600;
@@ -539,7 +610,8 @@ text-align: center;
  
  }
  .foot-menu a{
-  color: azure;
+  color:rgba(255, 255, 255, 0.5);
+  display: block;
  }
  .foot-hr{
   justify-content: center;
@@ -549,7 +621,7 @@ text-align: center;
  }
  
 .foot-p{
-   color: azure;
+  color: rgba(255, 255, 255, 0.5);
    /* margin-bottom: 50px; */
    padding-bottom: 20px;
 }
