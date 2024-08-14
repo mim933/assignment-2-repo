@@ -633,14 +633,15 @@ font-weight: 900;
  line-height: 100%;
 }
 .banner-btn-primary{
+  margin-left:20px;
   display: flex;
-  gap: 10px;
+  gap:15px;
 }
 .btn-primary{
-  font-size: 11px;
+  font-size: 15px;
 }
 .btn-diff{
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .banner-img img{
@@ -651,8 +652,8 @@ font-weight: 900;
   position:relative;
   width: 130px;
   height: 60px;
-  left:120px;
-  top: 100px;
+  left:50px;
+  top: 130px;
  }
 
  .btn-number{
@@ -665,9 +666,9 @@ font-size: 20px;
 .banner-btn{
   /* padding:15px 25px; */
   position:relative;
-  width:120px;
-  height:58px;
-  left: 5px;
+  width:160px;
+  height:70px;
+  left: 7px;
   top: 360px;
   /* background-color: rgba(0, 0, 0, 0.173);
   background: rgba(48, 48, 48, 0.612);
@@ -679,6 +680,16 @@ font-size: 20px;
  .btn-number2{
 font-size: 20px;
  }
+ .rounded-box{
+  background: rgb(230, 83, 60);
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  position: absolute;
+  left: 20px;
+  top:915px;
+
+}
 .habit-title{
   font-size:30px ;
   text-align: center;
@@ -748,6 +759,9 @@ font-size: 20px;
     /* position:relative; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .team-img-container img{
+    width: 100%;
   }
   .footer-main{
     display:flex;
