@@ -15,7 +15,7 @@
     
    header{
     background-color:rgba(0, 0, 0, 0.819);
-    padding:0 100px;
+    /* padding:0 100px; */
    
 }
   /* navbar css styles here */
@@ -265,7 +265,7 @@ padding: 15px;
    background-color:rgb(34, 34, 34); 
    display: flex;
    align-items:center;
-   margin: 0 100px;
+   /* margin: 0 100px; */
    border-radius: 18px;
    padding: 20px;
    justify-content: space-between;
@@ -644,14 +644,14 @@ font-weight: 900;
 }
 
 .banner-img img{
-  width: 90%;
+  width: 100%;
 }
 
 .banner-btn2{
   position:relative;
   width: 130px;
   height: 60px;
-  left:80px;
+  left:120px;
   top: 100px;
  }
 
@@ -667,7 +667,7 @@ font-size: 20px;
   position:relative;
   width:120px;
   height:58px;
-  left: -5px;
+  left: 5px;
   top: 280px;
   /* background-color: rgba(0, 0, 0, 0.173);
   background: rgba(48, 48, 48, 0.612);
