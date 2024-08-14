@@ -752,17 +752,17 @@ font-size: 20px;
   .footer-main{
     display:flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content:flex-start;
+    align-items:flex-start;
     
   }
-  .foot-hr{
+  /* .foot-hr{
      display:flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
+     justify-content:flex-start;
+     align-items:flex-start;
+     text-align:;
 
-  } 
+  }  */
 
  .foot-p{
   font-size:11px ;
