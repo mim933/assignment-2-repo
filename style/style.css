@@ -16,7 +16,7 @@
   } 
     
    header{
-    background-color:rgba(0, 0, 0, 0.819);
+    background-color:rgba(0, 0, 0, 0.819); 
     padding:0 100px;
 }
   /* navbar css styles here */
@@ -38,11 +38,13 @@
    line-height: 120%;
    letter-spacing: 0%;
    text-align: left;
+   margin-top:30px;
   }
  .nav-menu a{
     text-decoration:none ;
-    margin-left: 30px;
+    margin-left: 20px;
     color: rgb(255, 255, 255);
+   
     
     
  }
@@ -53,7 +55,7 @@
    line-height: 22px;
    letter-spacing: 0%; 
    text-align: left;
-  
+   margin-top: 20px;
  }
  .nav-hamburger-menu{
   display: none;
@@ -133,7 +135,7 @@ margin-bottom: 20px;
   width:190px;
   height:77px;
   left: 480px;
-  top: 460px;
+  top: 480px;
   /* background-color: rgba(0, 0, 0, 0.173); */
   background: rgba(48, 48, 48, 0.612);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -144,8 +146,8 @@ margin-bottom: 20px;
   position: absolute;
   width: 180px;
   height: 80px;
-  left:780px;
-  top: 300px;
+  left:800px;
+  top: 240px;
   background: rgba(48, 48, 48, 0.612);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
@@ -159,7 +161,7 @@ margin-bottom: 20px;
    border-radius: 100%;
    position: absolute;
    left: 490px;
-   top: 480px;
+   top: 499px;
    /* gap: 20px; */
 
  }
@@ -223,7 +225,7 @@ font-weight: 900;
 line-height: 120%;
 letter-spacing: 0%;
 text-align: center;
-margin-bottom: 20px;
+
  }
  .habit-description{
     color: rgba(255, 255, 255, 0.5);
@@ -479,7 +481,7 @@ td{
       font-weight: 900;
       line-height: 100%;
       letter-spacing: 0%;
-      margin-top: 30px;
+      margin-top: 7 0px;
      }
   .cal-bmi{
       display: flex;
@@ -511,7 +513,7 @@ td{
    line-height: 90%;
    letter-spacing: 0%;
    text-align: left;
-   /* padding: 0 0 0 20px; */
+   margin-top:30px;
    }
 .team-description{
    color: rgba(255, 255, 255, 0.5);
@@ -521,6 +523,7 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0.3px;
 text-align: center;
+margin-top: 20px;
  }
 .team-img-container{
    /* position:relative; */
@@ -531,17 +534,18 @@ text-align: center;
    border-radius: 18px;
    background: rgba(255, 255, 255, 0.1);
    padding: 20px;
+   margin-top: 30px;
   
  }
- /* .trainer-name{
+ .trainer-name{
   position:absolute;
-  bottom: 100px;
-  right: 100px;
- } */
+  bottom: 10px;
+  top: 200px;
+ }
  .img-size{
+  position: relative;
    height:200px;
    width: 100%;
-  
    background-size: cover;
    border-radius: 18px;
  }
@@ -574,6 +578,7 @@ text-align: center;
  /* footer css styles */
  .footer-main-bg-color{
    background:rgba(0, 0, 0, 0.878);
+   /* margin-top: 40px; */
  }
  .footer-description{
    color: rgba(255, 255, 255, 0.5);
@@ -582,6 +587,7 @@ text-align: center;
    font-weight: 400;
    line-height: 24px;
    letter-spacing: 0.3px;
+   margin-top: 30px;
    /* text-align:center; */
  }
  .footer-main{
@@ -598,6 +604,7 @@ text-align: center;
  }
  .foot-title{
   color:rgb(255, 255, 255);
+  margin-top: 30px;
  }
  .foot-menu {
   font-family: Inter;
@@ -626,11 +633,6 @@ text-align: center;
 }
 
 @media screen and (max-width:576px) {
-  /* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-  } */
   header{
     padding: 0px;
   }
@@ -639,7 +641,9 @@ text-align: center;
     
   
   }
-  
+  .navbar{
+   
+  }
   .nav-menu{
     display: none;
   }
@@ -653,9 +657,9 @@ font-weight: 900;
  line-height: 100%;
 }
 .banner-btn-primary{
-  margin-left:20px;
+  margin-left:10px;
   display: flex;
-  gap:15px;
+  gap:20px;
 }
 .btn-primary{
   font-size: 15px;
@@ -707,7 +711,7 @@ font-size: 20px;
   border-radius: 100%;
   position: absolute;
   left:13px;
-  top:770px;
+  top:800px;
 
 }
 .habit-title{
@@ -727,9 +731,9 @@ font-size: 20px;
   flex-direction: column;
  justify-content: space-between;
   align-items:center;
+  /* margin-bottom: 50px; */
 }
 .run-title{
-  
   font-size:30px;
   align-items: flex-start;
    }
@@ -799,6 +803,11 @@ font-size: 20px;
   }
   .team-img-container img{
     width: 100%;
+  }
+  .img-size img{
+    
+    width: 200%;
+    height: 200%;
   }
   .footer-main{
     display:flex;
