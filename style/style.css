@@ -594,10 +594,10 @@ margin-top: 20px;
    }
    .challenge-btn-1:hover{
       background-color:orange;
+      cursor:pointer;
    }
    .challenge-btn-2:hover{
       background-color: red;
-
    }
    .challenge-btn-2{
     background-color:tomato;
