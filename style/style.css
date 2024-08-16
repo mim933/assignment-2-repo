@@ -517,7 +517,68 @@ margin-top: 20px;
    font-size: 16px;
    font-weight: 300;
 }
-
+/* challenge css styles start here */
+   .challenge-container{
+    background-color: white;
+    /* padding: 0 100px; */
+    
+   }
+   .challenge-img img{
+    /* width: 75%; */
+    /* background: none; */
+    /* border-radius: 30px;
+     */
+     height:200px;
+     width: 100%;
+     background-size: cover;
+     border-radius: 8px;
+     /* background-color: white; */
+   }
+   .challenge-title{
+    color: white;
+    text-align: center;
+    font-size:35px;
+    font-weight:800 ;
+    margin-bottom: 50px;
+    /* padding-left: 10px; */
+   }
+   .challenge-img-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    gap: 30px;
+    margin-left:40px;
+    margin-right: 40px;
+    padding-bottom:50px;
+    
+   }
+   .challenge-img{
+    box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.24);
+    border: 2px solid rgba(255, 255, 255, 0.24) ;
+    border-radius:8px;
+    padding-bottom: 10px;
+   }
+   .dumbbell-title{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+   }
+   .dumbbell-price{
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+   }
+   .dumbbell-description{
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   }
+   .challenge-icon{
+    color:orange;
+    padding-left: 10px;
+    padding-top: 5px;
+   }
+/* challenge css styles end here */
  /* footer css styles */
  .footer-main-bg-color{
    background:rgba(0, 0, 0, 0.878);
@@ -739,7 +800,15 @@ font-size: 20px;
     margin: 0 0;
   }
 
-  
+  .challenge-img-container{
+    display:grid;
+    grid-template-columns:repeat(1, 1fr) ;
+    /* gap: 30px;
+    margin-left:40px;
+    margin-right: 40px;
+    padding-bottom:50px; */
+    
+   }
   .footer-main{
     display:flex;
     flex-direction: column;
