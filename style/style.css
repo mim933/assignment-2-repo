@@ -492,11 +492,14 @@ margin-top: 20px;
   
  }
  .img-size{
-  position:relative;
+   position:relative;
    height:200px;
    width: 100%;
    background-size: cover;
    border-radius: 18px;
+ }
+ .img-diff{
+  width: 100%;
  }
  .team-trainer{
   position: absolute;
@@ -523,24 +526,24 @@ margin-top: 20px;
     /* padding: 0 100px; */
     
    }
+   .challenge-bg-color{
+     background-color:rgba(127, 255, 212, 0.218);
+   }
    .challenge-img img{
-    /* width: 75%; */
-    /* background: none; */
-    /* border-radius: 30px;
-     */
      height:200px;
      width: 100%;
      background-size: cover;
-     border-radius: 8px;
-     /* background-color: white; */
+     border-radius: 4px;
+     border: 1px solid rgba(127, 255, 212, 0.218) ;
+     box-shadow: 2px 2px 4px rgba(127, 255, 212, 0.218) ;
    }
    .challenge-title{
-    color: white;
+    color:rgb(255, 255, 255);
     text-align: center;
     font-size:35px;
     font-weight:800 ;
-    margin-bottom: 50px;
-    /* padding-left: 10px; */
+    padding-top: 50px;
+    margin-bottom: 30px;
    }
    .challenge-img-container{
     display:grid;
@@ -559,16 +562,19 @@ margin-top: 20px;
    }
    .dumbbell-title{
     color: white;
+    font-size: 20px;
     padding-left: 10px;
     padding-top: 10px;
    }
    .dumbbell-price{
     color: white;
+    font-size: 18px;
     padding-left: 10px;
     padding-top: 5px;
    }
    .dumbbell-description{
     color: white;
+    font-size: 16px;
     padding-top: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -578,10 +584,30 @@ margin-top: 20px;
     padding-left: 10px;
     padding-top: 5px;
    }
+   .challenge-btn-1{
+    padding: 5px 10px;
+    background-color:blueviolet;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+   }
+   .challenge-btn-1:hover{
+      background-color:orange;
+   }
+   .challenge-btn-2:hover{
+      background-color: red;
+
+   }
+   .challenge-btn-2{
+    background-color:tomato;
+   }
+
 /* challenge css styles end here */
+
  /* footer css styles */
  .footer-main-bg-color{
-   background:rgba(0, 0, 0, 0.878);
+  background:rgba(0, 0, 0, 0.878);
  }
  .footer-description{
    color: rgba(255, 255, 255, 0.5);
@@ -799,15 +825,13 @@ font-size: 20px;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 0;
   }
-
+  .img-size{
+     height:400px;
+     width: 100%;
+   }
   .challenge-img-container{
     display:grid;
     grid-template-columns:repeat(1, 1fr) ;
-    /* gap: 30px;
-    margin-left:40px;
-    margin-right: 40px;
-    padding-bottom:50px; */
-    
    }
   .footer-main{
     display:flex;
